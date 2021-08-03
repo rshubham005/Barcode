@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.announcment
+{
+width: 100%;
+display: flex;
+justify-content: space-between;
+padding: 8px 10%;
+background-color: rgb(141, 23, 219);
+}
+.social
+{
+    color: white;
+    font-size: 18px;
+}
