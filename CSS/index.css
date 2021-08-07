@@ -131,3 +131,40 @@ margin-right: 20px;
     font-weight: 500;
     color: grey;
 }
+.services
+{
+    text-align: center;
+    padding: 3%;
+    background-color: rgb(253, 226, 226);
+}
+.service-card
+{
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.service-card:hover
+{
+    transform: scale(1.1);
+    transition: 0.8s all;
+    box-shadow: 0px 8px 8px 8px rgb(199, 143, 255);
+}
+.service-img
+{
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+}
+.service-title
+{
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+.service-para
+{
+    color: rgb(231, 206, 255);
+    font-size: 18px;
+    font-family: sans-serif;
+}
