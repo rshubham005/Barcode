@@ -66,7 +66,13 @@ background-color: black;
     font-weight: 500;
     padding: 8px 20px;
 }
-.btn:hover
+.btn-dark:hover
+{
+    padding: 12px 24px;
+    transition: 1s all;
+    color: white;
+}
+.about-btn
 {
     padding: 12px 24px;
     transition: 1s all;
