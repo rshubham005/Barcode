@@ -224,3 +224,32 @@ margin-right: 20px;
 {
     font-family: sans-serif;
 }
+
+/* Responsive */
+@media screen  and (max-width:720px) {
+    .banner-text{
+        padding-top: 20%;
+    }
+    .heading
+    {
+        font-size: 45px;
+        
+    }
+    .subhead
+    {
+        font-size: 25px;
+        
+    }
+    .head
+    {
+        font-size: 40px;
+    }
+    .quote
+    {
+        display: block;
+    }
+    .quote-text
+    {
+        font-size: 40px;
+    }
+}
