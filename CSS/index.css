@@ -174,3 +174,53 @@ margin-right: 20px;
     font-size: 18px;
     font-family: sans-serif;
 }
+.quote
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.411)) ,url(../Images/3124512.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-text
+{
+    color: white;
+    font-size: 55px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    padding: 0px 15px;
+}
+.quote-btn
+{
+    color: white;
+    background-color: blueviolet;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+.quote-btn:hover
+{
+    background-color: crimson;
+    transition: 0.8s all;
+    color: white;
+}
+.team
+{
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    background-color: rgba(189, 128, 247, 0.664);
+}
+.team-name
+{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+.team-title
+{
+    font-family: sans-serif;
+}
