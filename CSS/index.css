@@ -13,7 +13,7 @@ background-color: black;
 }
 .social
 {
-    color: rgb(180, 118, 250);
+    color: white;
     font-size: 18px;
 }
 .logo
@@ -252,4 +252,44 @@ margin-right: 20px;
     {
         font-size: 40px;
     }
+}
+.footer
+{
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.603)),url(../Images/foot.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 2%;
+}
+.col-md-3
+{
+    padding: 2%;
+    text-align: center;
+}
+.col-md-5
+{
+    padding: 2%;
+    text-align: center;
+}
+.footer-head
+{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.link-list
+{
+    list-style: none;
+}
+.link-list li a
+{
+    text-decoration: none;
+    color: grey;
+    font-weight: 700;
+}
+.link-list li a:hover
+{
+    color: white;
+    transition: 1s linear;
 }
